@@ -1,11 +1,11 @@
 import React from 'react'
-// navlink use for put active class automaticallynpm
+// navlink use for put active class automatically
 import { NavLink } from 'react-router-dom'
 
-const Home = () => {
+
+const Header = () => {
   return (
-    <>
-      <header>
+    <header>
         <a href="#">Logo</a>
         <nav>
           <ul>
@@ -15,10 +15,8 @@ const Home = () => {
             <li><NavLink to='/contact'>Contact</NavLink></li>
           </ul>
         </nav>
-      </header>
-      <h1>Home</h1>
-    </>
+    </header>
   )
 }
 
-export default Home
+export default Header
