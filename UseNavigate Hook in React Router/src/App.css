@@ -1,0 +1,19 @@
+.active{
+    font-weight: 900;
+}
+.header{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    list-style: none;
+    margin: 5px 50px;
+}
+.header a{
+    text-decoration: none;
+
+}
